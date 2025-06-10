@@ -5,6 +5,7 @@ This project implements a basic CNN to classify medical images (e.g., skin lesio
 ## Project Structure
 - `models/`: CNN architecture
 - `data/`: Dataset management
+- `prepare_data.py/`: Data preparation(train, test data split)
 - `train.py`: Training script
 - `test.py`: Prediction on test data
 - `notebooks/`: EDA 
