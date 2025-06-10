@@ -69,6 +69,7 @@ def main():
     val_loader = DataLoader(val_dataset, batch_size=32, shuffle=True)
 
     model = CNN().to(device)
+    weights = torch.tensor([1.0, 3.0]).to(device)  # Give higher weight to class 1(under-represented)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
