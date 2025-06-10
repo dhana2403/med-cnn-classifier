@@ -6,7 +6,7 @@ This project implements a basic CNN to classify medical images (e.g., skin lesio
 - `models/`: CNN architecture
 - `data/`: Dataset management
 - `train.py`: Training script
-- `eval.py`: Prediction on test data
+- `test.py`: Prediction on test data
 - `notebooks/`: EDA 
 ## Goals
 - Build a reproducible deep learning pipeline
