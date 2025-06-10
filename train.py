@@ -6,7 +6,7 @@ from torchvision import transforms
 import pandas as pd
 
 from utils.dataset_utils import HAM10000Dataset
-from models.cnn_model import SimpleCNN
+from models.cnn_model import CNN
 
 def train(model, loader, optimizer, criterion, device):
     model.train()
@@ -68,7 +68,7 @@ def main():
     train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=32, shuffle=True)
 
-    model = SimpleCNN().to(device)
+    model = CNN().to(device)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
