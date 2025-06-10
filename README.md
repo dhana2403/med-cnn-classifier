@@ -6,9 +6,8 @@ This project implements a basic CNN to classify medical images (e.g., skin lesio
 - `models/`: CNN architecture
 - `data/`: Dataset management
 - `train.py`: Training script
-- `eval.py`: Model evaluation
-- `notebooks/`: EDA and result analysis
-
+- `eval.py`: Prediction on test data
+- `notebooks/`: EDA 
 ## Goals
 - Build a reproducible deep learning pipeline
 - Practice clean, modular PyTorch code
@@ -19,7 +18,7 @@ This project implements a basic CNN to classify medical images (e.g., skin lesio
 pip install -r requirements.txt
 python data/download_data.py
 python train.py
-python eval.py
+python test.py
 ```
 
 ## TODO:
