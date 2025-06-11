@@ -24,6 +24,5 @@ python test.py
 
 ## TODO:
 - [ ] Improve model architecture
-- [ ] Add Docker container
 - [ ] Add metrics and visualizations
 """
