@@ -20,3 +20,10 @@ RUN python data/data_download.py || echo "Dataset not extracted — ensure zip f
 # Default command to train the model
 CMD ["python", "train.py"]
 
+#If you're only testing/predicting, change the last line to:
+CMD ["python", "test.py"]
+
+
+
+
+
