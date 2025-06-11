@@ -21,8 +21,3 @@ python data/download_data.py
 python train.py
 python test.py
 ```
-
-## TODO:
-- [ ] Improve model architecture
-- [ ] Add metrics and visualizations
-"""
