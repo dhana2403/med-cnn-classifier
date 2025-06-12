@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run dataset setup if zip files are available
-RUN python data/data_download.py || echo "Dataset not extracted — ensure zip files are in data/ locally before building if needed."
+RUN python data/HAM10000/data_download.py || echo "Dataset not extracted — ensure zip files are in data/ locally before building if needed."
 
 # Default command to train the model
 CMD ["python", "train.py"]
