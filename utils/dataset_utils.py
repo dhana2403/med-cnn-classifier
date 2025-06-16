@@ -18,10 +18,9 @@ class HAM10000Dataset(Dataset):
         image = Image.open(image_path).convert('RGB')
 
         if self.transform:
-            image = self.transform(image)
-
-        label = row['binary_label']
-        return image, label
+          image = self.transform(image)
+          label = row['binary_label']
+          return image, label
 
 def prepare_binary_labels(csv_path):
     df = pd.read_csv(csv_path)
