@@ -1,6 +1,6 @@
 # Medical Image Classification with Simple CNN
 
-This project implements a basic CNN to classify medical images (e.g., skin lesions) into benign or malignant categories using the HAM10000 dataset. The model performs at an accuracy of 0.77
+This project implements a basic CNN to classify medical images (e.g., skin lesions) into benign or malignant categories using the HAM10000 dataset. currently the model performs at an accuracy of 0.77
 
 ## Project Structure
 - `models/`: CNN architecture
