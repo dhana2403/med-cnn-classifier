@@ -11,7 +11,6 @@ This project implements a basic CNN to classify medical images (e.g., skin lesio
 - `notebooks/`: EDA 
 ## Goals
 - Build a reproducible deep learning pipeline
-- Practice clean, modular PyTorch code
 - Evaluate real-world biomedical application
 
 ## To Run:
