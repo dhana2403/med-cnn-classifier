@@ -20,8 +20,8 @@ This project implements a basic CNN to classify medical images (e.g., skin lesio
 
 ## Results
 <div style="display: flex; justify-content: space-between; width: 600px;">
-  <img src="https://github.com/dhana2403/med-cnn-classifier/blob/main/roc_curve.png" width="280" />
-  <img src="https://github.com/dhana2403/med-cnn-classifier/blob/main/precision_recall_curve.png" width="280" />
+  <img src="https://github.com/dhana2403/med-cnn-classifier/blob/main/roc_curve.png" width="350" />
+  <img src="https://github.com/dhana2403/med-cnn-classifier/blob/main/precision_recall_curve.png" width="350" />
 </div>
 
 ## To Run:
