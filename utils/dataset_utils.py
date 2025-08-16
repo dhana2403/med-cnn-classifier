@@ -31,7 +31,7 @@ def prepare_binary_labels(csv_path):
     df['binary_label'] = df['dx'].map(label_map)
     return df
 
-def handle_missing_values(csv_path):
+def handle_missing_values(csv_path): #this step is not needed if you are not gonna use metadata
     df = pd.read_csv(csv_path)
     df['age'] = df['age'].fillna(df['age'].median())
     return df
